@@ -48,7 +48,7 @@ multidict==6.0.4
 multiprocess==0.70.14
 nltk==3.7
 numba==0.56.4
-numpy==1.23.5
+numpy==1.21.6
 packaging==22.0
 pandas==1.5.2
 Pillow==9.4.0
