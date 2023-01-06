@@ -13,7 +13,7 @@ r = sr.Recognizer()
 from moviepy.editor import *
 
 from summarize import sumy_lsa_summarize, sumy_text_rank_summarize, transformers_summarize,cosine_similarity
-
+from dotenv import load_dotenv
 # Creating Flask Object and returning it.
 app = Flask(__name__)
 
@@ -135,4 +135,4 @@ def transcript_fetched_query(url):
 
 if __name__=="__main__":
     from waitress import serve
-    serve(app, host="0.0.0.0", port=8080)
+    serve(app, host="0.0.0.0", port=80)
